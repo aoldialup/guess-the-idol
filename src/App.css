@@ -1,0 +1,104 @@
+* {
+  text-align: center;
+}
+
+/* body {
+  /* background-image: url("../public/twice.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%; */
+/* background: url("../public/twice2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+/* -webkit-backdrop-filter: blur(3px); 
+} 
+*/
+
+.App-link {
+  color: #61dafb;
+}
+
+.idol {
+  width: 400px;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+audio {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #f4a7bb;
+}
+
+.options {
+  display: grid;
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(2, 100px);
+  justify-content: center;
+  gap: 10px;
+}
+
+.option {
+  border: none;
+  background-color: #f4a7bb;
+  border-radius: 8px;
+  font-size: medium;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.test {
+  width: 30px;
+  height: 30px;
+}
+
+
+div.stats>span {
+  display: flex;
+  align-items: center;
+}
+
+.checkmark {
+  background-color: greenyellow;
+  border-radius: 40px;
+}
+
+.x {
+  background-color: red;
+  border-radius: 40px;
+}
+
+.skip {
+  background-color: gray;
+  border-radius: 40px;
+}
+
+.skip-button {
+  border: none;
+  background-color: gray;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+}
+
+button:enabled {
+  cursor: pointer;
+
+}
+
+button:hover:not(:disabled) {
+  box-shadow: 2px 2px 2px 2px #888888;
+
+}
