@@ -12,5 +12,4 @@ export type Idol = {
 export type Question = {
   options: Idol[]
   correctId: string
-  //correctIdolIndex: number
 }
